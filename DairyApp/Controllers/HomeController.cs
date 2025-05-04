@@ -24,7 +24,7 @@ namespace DairyApp.Controllers
         }
 
         public IActionResult Privacy()
-        {
+        { 
             return View();
         }
 
@@ -32,6 +32,6 @@ namespace DairyApp.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        } 
     }
 }
